@@ -1,4 +1,4 @@
-fac: main.c
-	$(CC) -O2 -o fac main.c
+factor: main.c
+	$(CC) -O2 -o factor main.c
 clean:
-	rm -f fac *.o
+	rm -f factor *.o
